@@ -1062,7 +1062,7 @@ h4 {
 .method-section{padding-bottom:24px !important}
 
 /* === DOWNLOAD CARDS: 5 su una riga === */
-.downloads-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+.downloads-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
 .download-card{padding:14px;font-size:12px}
 .download-card h4{font-size:13px;margin-top:4px;margin-bottom:6px;line-height:1.3}
 .download-card p{font-size:11.5px;line-height:1.5;margin-bottom:10px}
