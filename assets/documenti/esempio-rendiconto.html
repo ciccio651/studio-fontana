@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Esempio di Rendiconto Condominiale Trasparente | Studio Fontana</title>
+  <style>
+    @page { size: A4; margin: 15mm; }
+    body { font-family: Arial, Helvetica, sans-serif; color: #26312e; line-height: 1.5; padding: 25px; max-width: 950px; margin: 0 auto; background: #fff; }
+    .header { border-bottom: 2px solid #174b46; padding-bottom: 15px; margin-bottom: 25px; display: flex; justify-content: space-between; align-items: flex-start; }
+    .header h2 { margin: 0; color: #174b46; font-size: 20px; font-family: Georgia, serif; }
+    .header-info { text-align: right; font-size: 13px; color: #555; }
+    .watermark-banner { background: #fdf5e6; border: 1px dashed #d6b09a; padding: 12px 18px; border-radius: 4px; font-size: 13px; color: #8a5a3c; margin-bottom: 25px; }
+    h1 { color: #174b46; font-size: 22px; font-family: Georgia, serif; text-align: center; margin: 10px 0 5px; }
+    .subtitle { text-align: center; font-size: 13px; color: #666; margin-bottom: 25px; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 25px; font-size: 13px; }
+    th, td { border: 1px solid #d0d7d2; padding: 8px 12px; text-align: left; }
+    th { background: #174b46; color: #fff; font-weight: 600; }
+    tr:nth-child(even) { background: #fbfcfb; }
+    .num { text-align: right; font-family: monospace; font-size: 13.5px; }
+    .total-row { font-weight: bold; background: #eaefe9 !important; border-top: 2px solid #174b46; }
+    .section-title { color: #174b46; font-size: 16px; font-family: Georgia, serif; margin: 25px 0 10px; border-bottom: 1px solid #c8d3cc; padding-bottom: 5px; }
+    .note-box { background: #f7f9f7; border-left: 3px solid #174b46; padding: 12px 16px; font-size: 13px; color: #444; margin-top: 15px; }
+    .print-bar { background: #174b46; color: #fff; padding: 12px 20px; margin-bottom: 25px; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; }
+    .print-btn { background: #d6b09a; color: #103b37; border: none; padding: 8px 18px; font-weight: bold; cursor: pointer; border-radius: 4px; font-size: 14px; }
+    .print-btn:hover { background: #c59f89; }
+    @media print {
+      .print-bar { display: none !important; }
+      body { padding: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="print-bar">
+    <span><strong>Studio Fontana</strong> — Modello dimostrativo di Rendiconto Trasparente a Partita Doppia (Art. 1130-bis c.c.)</span>
+    <button class="print-btn" onclick="window.print()">Stampa / Salva in PDF</button>
+  </div>
+
+  <div class="header">
+    <div>
+      <h2>Studio Fontana</h2>
+      <p style="margin:4px 0 0; font-size:13px; color:#626d66;">Amministrazione Condominiale · CAF · Mediazione</p>
+    </div>
+    <div class="header-info">
+      <strong>Filomena Fontana</strong> · P. IVA 03427431204<br>
+      Piazza IV Novembre, 4/B - 40038 Vergato (BO)<br>
+      Presidente Regionale AIC-CONDIVISION
+    </div>
+  </div>
+
+  <div class="watermark-banner">
+    <strong>DOCUMENTO DIMOSTRATIVO (DATI ANONIMIZZATI):</strong> Questo prospetto illustra lo standard di chiarezza e trasparenza contabile adottato dallo Studio Fontana per tutti i condomìni amministrati, ai sensi dell'art. 1130-bis del Codice Civile.
+  </div>
+
+  <h1>Condominio "Residenza I Portici" (Vergato)</h1>
+  <p class="subtitle">Esercizio Gestione Ordinaria: 01/01/2025 – 31/12/2025 · C.F. 90000000000</p>
+
+  <h3 class="section-title">1. Registro di Contabilità Sintetico delle Uscite per Voce</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Capitolo di Spesa</th>
+        <th>Descrizione Sintetica</th>
+        <th class="num">Preventivo (€)</th>
+        <th class="num">Consuntivo (€)</th>
+        <th class="num">Differenza (€)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>01. Energia Elettrica</strong></td>
+        <td>Illuminazione scale, androne, corsello garage e centrale termica</td>
+        <td class="num">1.450,00</td>
+        <td class="num">1.385,40</td>
+        <td class="num" style="color:green;">- 64,60</td>
+      </tr>
+      <tr>
+        <td><strong>02. Servizio Pulizia Scale</strong></td>
+        <td>Impresa di pulizia scale e rotazione bidoni (contratto annuo)</td>
+        <td class="num">2.400,00</td>
+        <td class="num">2.400,00</td>
+        <td class="num">0,00</td>
+      </tr>
+      <tr>
+        <td><strong>03. Manutenzione Ascensore</strong></td>
+        <td>Canone semestrale + verifica biennale organismo notificato</td>
+        <td class="num">1.850,00</td>
+        <td class="num">1.790,20</td>
+        <td class="num" style="color:green;">- 59,80</td>
+      </tr>
+      <tr>
+        <td><strong>04. Polizza Globale Fabbricati</strong></td>
+        <td>Assicurazione incendio, responsabilità civile verso terzi e acqua</td>
+        <td class="num">1.920,00</td>
+        <td class="num">1.920,00</td>
+        <td class="num">0,00</td>
+      </tr>
+      <tr>
+        <td><strong>05. Manutenzioni Ordinarie</strong></td>
+        <td>Riparazione fotocellula cancello + sostituzione corpi lampada LED</td>
+        <td class="num">800,00</td>
+        <td class="num">675,50</td>
+        <td class="num" style="color:green;">- 124,50</td>
+      </tr>
+      <tr>
+        <td><strong>06. Compenso Amministratore</strong></td>
+        <td>Compenso ordinario approvato + adempimenti fiscali (CU e 770)</td>
+        <td class="num">1.600,00</td>
+        <td class="num">1.600,00</td>
+        <td class="num">0,00</td>
+      </tr>
+      <tr>
+        <td><strong>07. Spese Postali e Bancarie</strong></td>
+        <td>Tenuta c/c bancario condominiale dedicato + raccomandate convocazione</td>
+        <td class="num">280,00</td>
+        <td class="num">245,60</td>
+        <td class="num" style="color:green;">- 34,40</td>
+      </tr>
+      <tr class="total-row">
+        <td colspan="2"><strong>TOTALE GENERALE USCITE GESTIONE</strong></td>
+        <td class="num"><strong>10.300,00</strong></td>
+        <td class="num"><strong>10.016,70</strong></td>
+        <td class="num" style="color:green;"><strong>- 283,30</strong></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 class="section-title">2. Stato Patrimoniale e Situazione di Cassa al 31/12/2025</h3>
+  <table>
+    <thead>
+      <tr>
+        <th style="width:50%;">ATTIVITÀ (Crediti e Disponibilità)</th>
+        <th style="width:50%;">PASSIVITÀ (Debiti e Fondi)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Saldo c/c Bancario attivo al 31/12: <strong>€ 4.215,80</strong><br>
+          Cassa contanti: <strong>€ 0,00</strong> (Tutto tracciato su c/c)<br>
+          Quote ordinarie da riscuotere (morosità): <strong>€ 450,00</strong>
+        </td>
+        <td>
+          Debiti verso fornitori (fatture scadenza genn.): <strong>€ 580,00</strong><br>
+          Fondo accantonamento manutenzioni future: <strong>€ 3.500,00</strong><br>
+          Avanzo di gestione da conguagliare: <strong>€ 585,80</strong>
+        </td>
+      </tr>
+      <tr class="total-row">
+        <td><strong>TOTALE ATTIVITÀ: € 4.665,80</strong></td>
+        <td><strong>TOTALE PASSIVITÀ E FONDI: € 4.665,80</strong></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="note-box">
+    <strong>I 4 Punti di Forza della Trasparenza Studio Fontana:</strong><br>
+    1. <strong>Conto Corrente Bancario Esclusivo:</strong> Nessuna commistione patrimoniale; ogni pagamento e incasso passa dal c/c intestato allo stabile.<br>
+    2. <strong>Quadrature e Riconciliazioni Bancarie:</strong> Il saldo finale coincide al centesimo con l'estratto conto dell'istituto bancario.<br>
+    3. <strong>Pezze d'Appoggio Digitalizzate:</strong> Ogni fattura e scontrino è scansionato e consultabile dai condòmini sul portale dedicato.<br>
+    4. <strong>Nota Sintetica Esplicativa:</strong> Ogni bilancio è accompagnato da una relazione chiara che spiega entrate, uscite e interventi previsti.
+  </div>
+</body>
+</html>
+
