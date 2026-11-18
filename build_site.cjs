@@ -34,6 +34,8 @@ const studioConfig = {
   administrator: "Filomena Fontana",
   role: "Presidente regionale Emilia-Romagna · AIC-CONDIVISION",
   vatId: "03427431204",
+  email: "studioamministrativofontana@gmail.com",
+  pec: "studiofontana@mypec.eu",
   city: "Vergato",
   serviceArea: "Vergato, Bologna e provincia",
   streetAddress: "Piazza IV Novembre, 4/B",
@@ -218,6 +220,7 @@ const indexHtml = `<!doctype html>
     "taxID": "03427431204",
     "description": "Amministrazione condomini e supercondomini, patrimoni immobiliari, contabilità trasparente, manutenzioni, adempimenti fiscali e mediazione civile a Vergato, Bologna e provincia.",
     "telephone": "+39 333 344 9742",
+    "email": "studioamministrativofontana@gmail.com",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Piazza IV Novembre, 4/B",
@@ -848,13 +851,21 @@ const indexHtml = `<!doctype html>
             <div class="contact-detail">
               <span class="contact-detail__icon">${svgIcons.Mail}</span>
               <span>
-                <small>Email & PEC Ufficiali</small>
-                <strong>Da configurare · PEC da configurare</strong>
+                <small>Email Ordinaria</small>
+                <a href="mailto:studioamministrativofontana@gmail.com"><strong>studioamministrativofontana@gmail.com</strong></a>
               </span>
             </div>
 
             <div class="contact-detail">
               <span class="contact-detail__icon">${svgIcons.ShieldAlert}</span>
+              <span>
+                <small>Posta Elettronica Certificata (PEC)</small>
+                <a href="mailto:studiofontana@mypec.eu"><strong>studiofontana@mypec.eu</strong></a>
+              </span>
+            </div>
+
+            <div class="contact-detail">
+              <span class="contact-detail__icon">${svgIcons.Scale}</span>
               <span>
                 <small>Partita IVA</small>
                 <strong>03427431204</strong>
@@ -903,6 +914,9 @@ const indexHtml = `<!doctype html>
             <p><strong>Denominazione</strong><span>Studio Fontana di Filomena Fontana</span></p>
             <p><strong>Sede Legale e Operativa</strong><span>Piazza IV Novembre, 4/B - 40038 Vergato (BO)</span></p>
             <p><strong>Partita IVA</strong><span>03427431204</span></p>
+            <p><strong>Email Ordinaria</strong><span><a href="mailto:studioamministrativofontana@gmail.com">studioamministrativofontana@gmail.com</a></span></p>
+            <p><strong>Posta Certificata (PEC)</strong><span><a href="mailto:studiofontana@mypec.eu">studiofontana@mypec.eu</a></span></p>
+            <p><strong>Recapito Telefonico</strong><span><a href="tel:+393333449742">+39 333 344 9742</a></span></p>
             <p><strong>Ruolo e Associazione</strong><span>Presidente Regionale Emilia-Romagna · AIC-CONDIVISION</span></p>
             <p><strong>Requisiti Professionali</strong><span>Formazione iniziale e periodica certificata ex D.M. 140/2014 e L. 220/2012</span></p>
             <p><strong>Polizza RC Professionale</strong><span>Polizza individuale di Responsabilità Civile attiva a tutela degli stabili</span></p>
@@ -947,6 +961,8 @@ const indexHtml = `<!doctype html>
           <div class="site-footer__nav site-footer__nav--contact">
             <span class="site-footer__label">Recapiti Ufficiali</span>
             <a href="tel:+393333449742">+39 333 344 9742</a>
+            <a href="mailto:studioamministrativofontana@gmail.com">studioamministrativofontana@gmail.com</a>
+            <a href="mailto:studiofontana@mypec.eu">PEC: studiofontana@mypec.eu</a>
             <span>Piazza IV Novembre, 4/B, 40038 Vergato (BO)</span>
             <span><strong>Partita IVA: 03427431204</strong></span>
             <a href="privacy.html">Informativa Privacy (GDPR)</a>
@@ -956,7 +972,7 @@ const indexHtml = `<!doctype html>
 
         <div class="site-footer__bottom">
           <span>© ${new Date().getFullYear()} Studio Fontana di Filomena Fontana</span>
-          <span>Partita IVA: 03427431204 · Sede: Vergato (BO)</span>
+          <span>P. IVA: 03427431204 · PEC: studiofontana@mypec.eu · Sede: Vergato (BO)</span>
           <a href="#inizio">Torna all’inizio ${svgIcons.ArrowUpRight}</a>
         </div>
       </div>

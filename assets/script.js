@@ -110,8 +110,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // 4. Moduli di contatto e preventivo
   const forms = document.querySelectorAll('.lead-form');
-  // Se desideri impostare l'email di ricezione (es: "info@studiofontana.it"), inseriscila qui:
-  const studioEmail = ""; 
+  // Email di ricezione comunicazioni e richieste di preventivo dello studio:
+  const studioEmail = "studioamministrativofontana@gmail.com"; 
 
   forms.forEach(form => {
     form.addEventListener('submit', (e) => {

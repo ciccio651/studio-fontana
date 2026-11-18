@@ -2,7 +2,11 @@
 **Amministrazione di Condominio · Revisione Contabile · Sportello Fiscale CAF · Mediazione Civile**  
 *Sede: Piazza IV Novembre 4/B, 40038 Vergato (BO)*  
 *Titolare: Filomena Fontana (Presidente regionale Emilia-Romagna · AIC-CONDIVISION)*  
-*Partita IVA: 03427431204*
+*Partita IVA: 03427431204*  
+*Telefono: +39 333 344 9742*  
+*Email: studioamministrativofontana@gmail.com*  
+*PEC: studiofontana@mypec.eu*  
+*Dominio: www.studioamministrativofontana.it*  
 
 ---
 
